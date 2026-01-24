@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { Exo_2 } from "next/font/google";
 
 export default function AboutAccordion() {
   const [openIndex, setOpenIndex] = useState(0);
@@ -65,19 +66,17 @@ export default function AboutAccordion() {
             {openIndex === 1 && (
               <div className="px-6 pb-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
                 <Image
-                  src="/PCOD.jpg"
+                  src="/treat.jpg"
                   alt="Women health Ayurveda"
-                  width={400}
-                  height={300}
+                  width={350}
+                  height={450}
                   className="rounded-xl object-cover"
                 />
 
                 <p className="text-gray-700 leading-relaxed">
-                  My clinical practice involves treating conditions such as
-                  PCOS, infertility, ovarian cysts, menstrual irregularities,
-                  recurrent infections, hormonal imbalances, and
-                  pregnancy-related concerns. I focus on addressing the root
-                  cause rather than providing temporary symptom relief.
+                  My key areas of clinical expertise include infertility, PCOS,
+                  menstrual disorders, hormonal imbalance, preconception
+                  planning, and Garbhasanskar.
                 </p>
               </div>
             )}

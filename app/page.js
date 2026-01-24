@@ -19,20 +19,35 @@ export default function Home() {
             {/* Left Content */}
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                Dr. Rashmi H
+                Dr. Rashmi Hadimani
               </h1>
 
-              <h2 className="text-lg md:text-xl font-semibold text-green-700 mb-6">
-                Ayurvedic Consultant – Women’s Health & Pregnancy Care
+              <h2 className="text-lg md:text-xl font-semibold text-green-700 mb-6 flex flex-col gap-1">
+                Assistant Professor
+                <span>Fertility consultant and Garbhasamskar coach</span>
               </h2>
-
-              <p className="text-gray-700 leading-relaxed mb-6">
-                I provide holistic and evidence-based Ayurvedic care with a
-                special focus on women’s health, reproductive wellness, and
-                pregnancy-related concerns. My treatments are designed to
-                address the root cause and support long-term well-being.
-              </p>
-
+              <div className="flex flex-col gap-2">
+                <p className="text-gray-700 leading-relaxed ">
+                  I am Dr. Rashmi Hadimani, an Ayurvedic Obstetrician &
+                  Gynecologist (Prasooti Tantra & Stree Roga Specialist) with a
+                  strong interest in integrative women’s healthcare. I focus on
+                  treating reproductive health challenges through classical
+                  Ayurveda, lifestyle correction, and patient-centered care.
+                </p>
+                <p className="text-gray-700 leading-relaxed ">
+                  {" "}
+                  I strongly believe in combining traditional Ayurvedic
+                  principles with scientific understanding, ensuring safe,
+                  effective, and individualized treatment plans.
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  In addition to clinical practice, I have published scientific
+                  research articles in national and international journals and
+                  actively conduct awareness camps and health education programs
+                  for girls and women, promoting preventive care and
+                  reproductive health literacy.
+                </p>
+              </div>
               <div className="flex flex-wrap gap-4">
                 <a
                   href="#about"

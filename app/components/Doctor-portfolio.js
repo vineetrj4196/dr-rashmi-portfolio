@@ -7,11 +7,11 @@ export default function DoctorPortfolio() {
         {/* Left Content */}
         <div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Dr. Rashmi H
+            Dr. Rashmi Hadimani
           </h1>
 
           <h2 className="text-lg font-semibold text-green-700 mb-6">
-            Ayurvedic Consultant – Prasooti Tantra & Stree Roga
+            Assistant professor Fertility consultant and Garbhasamskar coach
           </h2>
 
           <p className="text-gray-700 leading-relaxed mb-4">
