@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Navbar />
 
-      <main className="pt-16 md:pt-14">
+      <main className="pt-16 md:pt-14 ">
         <section
           id="home"
           className="min-h-screen flex items-center bg-gradient-to-b from-green-50 to-white pt-10"
