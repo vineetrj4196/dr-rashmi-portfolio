@@ -93,7 +93,7 @@ export default function Home() {
             </h2>
 
             {/* Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
               {/* Card 1 */}
               <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition flex flex-col items-center text-center">
                 <div className="w-14 h-14 mb-4 rounded-full bg-green-100 flex items-center justify-center text-green-700 text-xl font-bold">
