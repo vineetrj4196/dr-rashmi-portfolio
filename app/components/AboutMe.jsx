@@ -57,7 +57,7 @@ export default function AboutAccordion() {
           <div className="border border-gray-300 rounded-2xl overflow-hidden">
             <button
               onClick={() => toggle(1)}
-              className="w-full flex justify-between items-center px-6 py-5 text-left font-semibold text-gray-800"
+              className="w-full flex justify-between items-center px-6 py-5 text-left font-semibold text-gray-800 "
             >
               Conditions I Treat
               <span className="text-xl">{openIndex === 1 ? "−" : "+"}</span>
