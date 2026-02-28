@@ -81,7 +81,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className=" bg-white">
+        <section id="about" className=" bg-white ">
           <AboutAccordion />
         </section>
 
